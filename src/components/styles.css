@@ -1,0 +1,136 @@
+/* dashboard */
+
+.task-form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .textarea-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  .select-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+
+  /* task list */
+
+  li {
+    list-style: none;
+    margin-bottom: 16px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  
+  li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .checkbox {
+    margin-right: 8px;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+    margin-right: 8px;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-input {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .edit-textarea {
+    width: 100%;
+    margin-bottom: 8px;
+    resize: vertical;
+  }
+  
+  .edit-select {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .edit-buttons {
+    display: flex;
+  }
+  
+  .edit-buttons button {
+    margin-right: 8px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .edit-buttons button:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-button {
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+
+  /* task list */
+
+  .task-list {
+    width: 100%;
+    margin-left: -40px;
+  }
+  
+
+ 
